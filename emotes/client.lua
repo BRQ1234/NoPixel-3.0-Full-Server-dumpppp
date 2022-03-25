@@ -24,7 +24,7 @@ AddEventHandler('stuckincar',
 RegisterNetEvent('doAnim');
 AddEventHandler('doAnim', function(anim)
     TriggerEvent("animation:PlayAnimation", anim)
-end)
+end);
 
 AddEventHandler('playCancel', function() endanims("cancel") end)
 
